@@ -1,0 +1,62 @@
+mkdir gitfth
+- gitfth 이라는 폴더를 만든다.
+
+cd gitfth
+-gitfth 폴더로 경로를 이동한다.
+
+git init
+-현재 디렌토리를 git의 저장소로 만든다.
+
+vim f1.txt
+-f1.txt란 파일을 만든다
+
+i입력하면 
+insert모드로 바뀌면서 입력가능하게 된다.
+
+:wq 입력하면 (write , quit) 로 저장하고 나온다는 뜻
+
+ls -al
+-현재 디렉토리의 모든 파일을 보여준다.
+
+cat f1.txt
+-f1.txt에 있는 파일 내용을 보여준다.
+
+git config --global user.name Kang3238
+git config --global user.email rkd8776@naver.com
+-글로벌 설정을 먼저 해준다.
+
+C:\>cd education
+내가 만든 폴더 경로로 잡아준다.(저장소 설정)
+
+git clone https://github.com/Kang3238/new-tutorial.git
+-내 리모트 원격 주소를 통해 내 폴더에 다운을 하는것
+
+git add document.txt
+-내 컴퓨터 git 에서 document 을 등록 해준다는 느낌
+
+git commit -m "Add Text File [document.txt]"    -> 뒷부분은 설명 부분
+-이건 내컴퓨터에 " " 안의 내용을 저장 시키는 부분
+
+git push
+-이게 원격 주소에 다가 올리는 방법
+
+git pull
+-원격 주소에 올린걸 내 컴퓨터로 옮기는 명령어
+
+git status 
+-현재 상태 말해줌
+
+git add . 
+-변경 사항 전부 적용
+
+git push -f
+-강제 푸쉬 
+
+git log 
+-현재 까지의 변경사항 전부 보여줌
+
+git commit --amend
+-unix 설정 창 으로 이동하는데
+a 누르면 수정 할수 있고 :wq! 로 저장하고 나오면 된다.
+
+6강 까지 
